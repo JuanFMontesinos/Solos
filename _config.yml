@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Juan F. Montesinos"
+  name             : "Solos Dataset"
   avatar           : "profile.png"
-  bio              : "PhD student in Pompeu Fabra University. Working in audiovisual modality using ML"
-  location         : "Barcelona"
+  bio              : "Dataset for Audiovisual BSS"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
