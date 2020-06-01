@@ -40,3 +40,8 @@ sk = sk_npy[youtube_id] # This is a np.mmap if in_ram = False or np.ndarray if i
 #sk shape is Nx3x47 --> N,[x,y,c],47  where N is the total amount of frames
 ```
 
+# Downloading the data  
+The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded here. 
+To open it in reading mode:  
+`npy = np.memmap(path, dtype=np.float32, mode='r', shape=(N, 3, 47))`
+For extra info check `np.mmap` [docs](https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.memmap.html)
