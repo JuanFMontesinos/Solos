@@ -37,6 +37,6 @@ video keys to obtain a `np.mmap` array with the skeletons of the chosen video. B
 import solos
 sk_npy = solos.SkReader(download=True,in_ram=False)
 sk = sk_npy[youtube_id] # This is a np.mmap if in_ram = False or np.ndarray if in_ram=True
-#sk shape is Nx3x47 --> N,[x,y,c],47 
+#sk shape is Nx3x47 --> N,[x,y,c],47  where N is the total amount of frames
 ```
 
