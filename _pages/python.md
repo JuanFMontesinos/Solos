@@ -28,3 +28,5 @@ So that you can resume from:
 ```
 python youtubesaver.py from_csv_per_instrument /path_to_your_dst /path_to_your_dst/backup.json
 ```
+# Skeletons and Numpy  
+Skeletons are provided as a numpy memory map file in order to have a versatile scalable way of reading them. 
