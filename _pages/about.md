@@ -13,5 +13,10 @@ Solos is complementary to other datasets of this nature such us MUSIC and MUSICe
 
 Solos provide frame-wise human skeletons for the soloist computed using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). For each frame we provide meaningful joints, namely, the upperbody joints + hand detection.  
 
+<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=7Z96EdnfzoQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+
 # Categories  
+Solos contains the same categories than [URMP Dataset](http://www2.ece.rochester.edu/projects/air/projects/URMP.html)
 ![Categories](/images/instruments.png "Solos categories")
+
+This is intended in order to be able to use URMP as test set.  
