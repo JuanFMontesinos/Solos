@@ -2,3 +2,7 @@
 main:
   - title: "Examples"
     url: /examples/
+  - title: "Python"
+    url : /python/
+  - title: "CSV"
+    url : /csv/
