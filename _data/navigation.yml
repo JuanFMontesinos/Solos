@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Examples"
-    url: /examples/
+  - title: "Skeleton Data"
+    url: /skeleton/
   - title: "Python"
     url : /python/
   - title: "CSV"
