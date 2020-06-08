@@ -26,4 +26,4 @@ The general distribution is:
 Hands distribution are the following:  
 <img src="https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/doc/media/keypoints_hand.png" alt="Open P ose Hand" width="400" title="Open Pose Hand"/>
 
-The joint 3 and 6 of the general body corresponds to the joint 0 of the hand. Right hand are joint 7:27 and the left hand the rest. 
+The joints 3 and 6 of the general body corresponds to the joint 0 of  each hand. Right hand are joint 7:27 and the left hand the rest. 
