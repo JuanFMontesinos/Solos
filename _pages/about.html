@@ -14,8 +14,7 @@ redirect_from:
 <p>Solos provide frame-wise human skeletons for the soloist computed using
 <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose/">OpenPose</a>. For each frame we provide meaningful joints, namely, the upperbody joints + hand detection.</p>
 
-<iframe width="1208" height="680" src="https://www.youtube.com/embed/uIqbE0Ylh9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p> </p>
+<iframe width="1208" height="680" src="https://www.youtube.com/embed/17Kjw976myc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p> </p>
 <h1>Categories</h1>  
 Solos contains the same categories than
 <a href="http://www2.ece.rochester.edu/projects/air/projects/URMP.html">URMP Dataset</a>
@@ -25,6 +24,11 @@ Solos contains the same categories than
 
 This is intended in order to be able to use URMP as test set.  
 <p> </p>
+In the next video we can see skeletons provided for both, the interpolated and non-interpolated case. Skeletons have been colored according to 
+the network confidence. The more blue the more confident the network is. The more red, the less confidence the network is. Green is used when 
+the network confidence is zero (miss-prediction). 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pnc0tPYzW5U?start=20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+As we can observe, once the network misspredict a joint, the joint position goes to (0,0), the top left of the image. 
 <h1> Dataset Statistics</h1>
 In the following table we show the statistics of the dataset:
   <table>
