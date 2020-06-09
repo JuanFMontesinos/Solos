@@ -28,7 +28,7 @@ class YouTubeSaver(object):
             'logger': None
         }
 
-    def from_csv(self, dataset_dir, json_path=SOLOS_IDS_PATH):
+    def from_json(self, dataset_dir, json_path=SOLOS_IDS_PATH):
         dataset = _json.load(open(json_path))
 
         for instrument in dataset.keys():
@@ -55,4 +55,4 @@ if __name__ == '__main__':
     _fire.Fire(YouTubeSaver)
 
     # USAGE
-    # python youtubesaver.py from_csv_per_instrument /path_to_your_dst
+    # python youtubesaver.py from_json /path_to_your_dst
