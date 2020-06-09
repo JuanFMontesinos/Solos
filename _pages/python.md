@@ -27,10 +27,17 @@ If some video fails to be downloaded, a backup copy with the remaining videos is
 So that you can resume from:
 ```
 python youtubesaver.py from_json /path_to_your_dst /path_to_your_dst/backup.json
+```   
+You can directly import Solos from appending that folder to pythonpaths or installing via pip
+# PIP
+For simplicity solos can be installed via pip. (Realize youtube script to download videos is not part of the package)  
 ```
+pip install solos
+```
+
 # Skeletons and Numpy  
 Skeletons are provided as a numpy memory map file in order to have a versatile scalable way of reading them.  
-The class `solos.SkReader` automatically downloads the refined skeletons and exposes a `np.mmap` instance. You can query `SkReader` with 
+The class `Solos.SkReader` automatically downloads the refined skeletons and exposes a `np.mmap` instance. You can query `SkReader` with 
 video keys to obtain a `np.mmap` array with the skeletons of the chosen video. Besides you can slice the original array which cointains all the skeletons.  
 
 ```
@@ -40,7 +47,8 @@ sk = sk_npy[youtube_id] # This is a np.mmap if in_ram = False or np.ndarray if i
 #sk shape is Nx3x47 --> N,[x,y,c],47  where N is the total amount of frames
 ```
 # YouTube IDs  
-YouTube IDs are exposed by calling `solos.get_solos_ids()` as a dictionary whose keys are the categories (instruments) present in the dataset and its values are lists of YouTube IDs (corresponding to the key category).  
+YouTube IDs are exposed by calling `Solos.get_solos_ids()` as a dictionary whose keys are the categories (instruments) present in the dataset and its values are lists of YouTube IDs (corresponding to the key category).  
+Dataset timestamps are exposed by calling `Solos.get_solos_timestamps()`.  
 # Downloading the data (Optional) 
 The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded from [GDrive](https://drive.google.com/file/d/1QRn7KMoJVD342VjpxsQh_uyQPhH2859B/view?usp=sharing) and the index mapping [here](https://drive.google.com/file/d/1vkVDWDcChYaiVjp0PmOgQgZdLIYbWeaV/view?usp=sharing). 
 To open it in reading mode:  
