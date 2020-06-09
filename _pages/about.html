@@ -38,7 +38,7 @@ This is intended in order to be able to use URMP as test set.
 <p> </p>
 
 <h1> Dataset Statistics</h1>
-In the following table we show the statistics of the dataset:
+<p>In the following table we show the statistics of the dataset: </p>
   <table>
     <tr>
         <td>Category</td>
@@ -131,7 +131,42 @@ In the following table we show the statistics of the dataset:
         <td><b>854x480</b></td>
     </tr>
 </table>
-
+<h1>Results</h1>  
+<p> In the following Table we show a comparison between Sound of Pixels trained in MUSIC,
+ trained in SOLOS, trained in MUSIC and fine tuned in solos and a Multi-Head UNet trained on Solos. </p>
+<table>
+    <tr>
+        <td></td>
+        <td>SDR $\uparrow$</td>
+        <td>SIR $\uparrow$</td>
+        <td>SAR $\uparrow$</td>
+    </tr>
+    <tr>
+        <td>SoP \cite{SoP}</td>
+        <td>$-3.76\pm4.00$</td>
+        <td>$-1.45\pm4.68$</td>
+        <td>$7.56\pm3.13$</td>
+    </tr>
+    <tr>
+        <td>SoP-Solos</td>
+        <td>$-2.98\pm5.07$</td>
+        <td>$0.46\pm6.76$</td>
+        <td>$6.37\pm2.94$</td>
+    </tr>
+    <tr>
+        <td>SoP-ft</td>
+        <td>$-2.57\pm4.99$</td>
+        <td>$0.47\pm6.43$</td>
+        <td>$6.89\pm2.48$</td>
+    </tr>
+    <tr>
+        <td>MHU-Net</td>
+        <td>$ -0.56\pm5.96 $</td>
+        <td>$ 1.04\pm7.24 $</td>
+        <td>$ 10.37\pm3.48 $</td>
+    </tr>
+</table>
+<p> </p>
 <h1>Citation</h1>
 <pre>
 Cooming soon.
