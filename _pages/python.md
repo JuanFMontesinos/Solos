@@ -39,8 +39,9 @@ sk_npy = solos.SkReader(download=True,in_ram=False)
 sk = sk_npy[youtube_id] # This is a np.mmap if in_ram = False or np.ndarray if in_ram=True
 #sk shape is Nx3x47 --> N,[x,y,c],47  where N is the total amount of frames
 ```
-
-# Downloading the data  
+# YouTube IDs  
+YouTube IDs are exposed by calling `solos.get_solos_ids()` as a dictionary whose keys are the categories (instruments) present in the dataset and its values are lists of YouTube IDs (corresponding to the key category).  
+# Downloading the data (Optional) 
 The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded from [GDrive](https://drive.google.com/file/d/1QRn7KMoJVD342VjpxsQh_uyQPhH2859B/view?usp=sharing) and the index mapping [here](https://drive.google.com/file/d/1vkVDWDcChYaiVjp0PmOgQgZdLIYbWeaV/view?usp=sharing). 
 To open it in reading mode:  
 `npy = np.memmap(path, dtype=np.float32, mode='r', shape=(N, 3, 47))`  
