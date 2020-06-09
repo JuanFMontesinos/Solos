@@ -41,7 +41,7 @@ sk = sk_npy[youtube_id] # This is a np.mmap if in_ram = False or np.ndarray if i
 ```
 
 # Downloading the data  
-The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded here. 
+The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded from [GDrive](https://drive.google.com/file/d/1QRn7KMoJVD342VjpxsQh_uyQPhH2859B/view?usp=sharing) and the index mapping [here](https://drive.google.com/file/d/1vkVDWDcChYaiVjp0PmOgQgZdLIYbWeaV/view?usp=sharing). 
 To open it in reading mode:  
 `npy = np.memmap(path, dtype=np.float32, mode='r', shape=(N, 3, 47))`  
 For extra info check `np.mmap` [docs](https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.memmap.html)
