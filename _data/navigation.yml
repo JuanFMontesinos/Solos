@@ -2,6 +2,8 @@
 main:
   - title: "Skeleton Data"
     url: /data/
+  - title: "YouTube IDs"
+    url: /stamps/
   - title: "Python"
     url : /python/
   - title: "CSV"
