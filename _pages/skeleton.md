@@ -22,7 +22,7 @@ We found empirically that this produces unstability in training pipes. That is w
 Each video consist of `Nx3x47` joints where N is the number of frames.  
 Not all the joints of openpose are provided but the relevants ones for playing an instrument. namely, hands and upperbody.  
 The general distribution is:  
-![Body Joints](/images/da_vinci.png)  
+![Body Joints](../images/da_vinci.png)  
 Hands distribution are the following:  
 <img src="https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/doc/media/keypoints_hand.png" alt="Open P ose Hand" width="400" title="Open Pose Hand"/>
 
