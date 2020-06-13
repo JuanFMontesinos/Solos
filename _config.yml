@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Solos"
 title_separator          : "-"
-name                     : &name "Solos Dataset"
-description              : &description "Dataset for Audiovisual BSS"
+name                     : &name "Solos"
+description              : &description " A Dataset for Audio-Visual Music Analysis"
 url                      : "https://juanmontesinos.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/Solos" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Solos Dataset"
+  name             : "Solos"
   avatar           : "profile.png"
-  bio              : "Dataset for Audiovisual BSS"
+  bio              : "A Dataset for Audio-Visual Music Analysis"
   location         : 
   employer         :
   pubmed           : 
