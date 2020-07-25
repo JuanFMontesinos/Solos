@@ -17,7 +17,9 @@ setup(name='solos',
       author='Juan Montesinos',
       author_email='juanfelipe.montesinos@upf.edu',
       packages=find_packages(),
-      install_requires=['Fire', 'youtube_dl', 'google_drive_downloader'],
+      install_requires=['Fire', 'youtube_dl', 'googledrivedownloader'],
+      package_data={'Solos': 'json_files/solos_ids.json'},
+      include_package_data=True,
       classifiers=[
           "Programming Language :: Python :: 3", ],
       zip_safe=False)

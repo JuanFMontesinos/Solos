@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # C extensions
+skeleton_files_test.py
 *.so
 *.idea
 # Distribution / packaging

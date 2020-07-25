@@ -1,0 +1,3 @@
+include Solos/json_files/solos_ids.json
+include Solos/json_files/solos_timestamps.json
+include Solos/skeleton_files/skeleton_dict.json
