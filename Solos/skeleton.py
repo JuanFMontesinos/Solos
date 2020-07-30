@@ -17,7 +17,10 @@ class SKReader(object):
             gdd.download_file_from_google_drive(file_id='1A3xCsLdtL91OavcqvCzsmCc8CKgBfQBj',
                                                 dest_path=os.path.join(PATH,'skeleton_files','skeleton.npy'),
                                                 unzip=False)
-        self.npy = np.memmap(os.path.join(PATH, 'skeleton_files', 'skeleton.npy'), dtype=np.float32, mode='r', shape=(N, 3, 47))
+        self.npy = np.memmap(os.path.join(PATH, 'skeleton_files', 'skeleton.npy'),
+                             dtype=np.float32,
+                             mode='r',
+                             shape=(N, 3, 47))
         if in_ram:
             self.npy = self.npy.copy()
 
