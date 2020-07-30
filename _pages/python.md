@@ -31,6 +31,7 @@ python youtubesaver.py from_json /path_to_your_dst /path_to_your_dst/backup.json
 You can directly import Solos from appending that folder to pythonpaths or installing via pip
 # PIP
 For simplicity solos can be installed via pip. (Realize youtube script to download videos is not part of the package)  
+**Until the release of version 0.4 we encourage you to use the version 0.3 which can be found in GitHub** 
 ```
 pip install solos
 ```
