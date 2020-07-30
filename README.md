@@ -1,6 +1,9 @@
 # Solos: A Dataset for Audio-Visual Music Analysis
 Audiovisual Dataset. 
 Please feel free to visit the [Project Page](https://juanmontesinos.com/Solos) for more info.  
+## Changelog   
+- Version 0.3: Bug fix releasing timestamps.  
+- Version 0.2: Bug fix to include json files in pypi package.  
 
 ## Citation  
 ```
