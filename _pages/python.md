@@ -52,7 +52,7 @@ YouTube IDs are exposed by calling `Solos.get_solos_ids()` as a dictionary whose
 Dataset timestamps are exposed by calling `Solos.get_solos_timestamps()`.  
 Corresponding paths to the files can be found at `Solos.SOLOS_IDS_PATH` and `Solos.SOLOS_TIMESTAMPS_PATH`.  
 # Downloading the data (Optional)  
-The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded from [GDrive 3Gb](https://drive.google.com/file/d/1QRn7KMoJVD342VjpxsQh_uyQPhH2859B/view?usp=sharing) and the index mapping [here](https://drive.google.com/file/d/1vkVDWDcChYaiVjp0PmOgQgZdLIYbWeaV/view?usp=sharing). Index json file is already included in the python package. 
+The numpy array should be automatically downloaded. In case anything fails the `.npy` file can be downloaded from [GDrive 3Gb](https://drive.google.com/file/d/1A3xCsLdtL91OavcqvCzsmCc8CKgBfQBj/view?usp=sharing) and the index mapping [here](https://drive.google.com/file/d/1SP5YcFQBvA8rfMELBE9vB2LRpnHoJ2VY/view?usp=sharing). Index json file is already included in the python package. 
 To open it in reading mode:  
 `npy = np.memmap(path, dtype=np.float32, mode='r', shape=(N, 3, 47))`  
 For extra info check `np.mmap` [docs](https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.memmap.html)
