@@ -12,5 +12,5 @@ The frame number, then, for each joint from 0 to 46 the coords X,Y and the confi
 ```
 id, frame_n, j0_x, j0_y, j0_c, ... , j46_x, j46_y, j46_c
 ```
-CSV files in [GDrive](https://drive.google.com/file/d/1eWB6J1T2MKzl-c8-ylik9O2CWLJyUpjx/view?usp=sharing)
+CSV files in GDrive **temporarily unavailable**
 The CSV file is ~14Gb. 
