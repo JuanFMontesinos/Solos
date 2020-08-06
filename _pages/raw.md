@@ -5,7 +5,7 @@ author_profile: true
 redirect_from: 
   - /raw.html
 ---
-Raw skeletons can be downloaded from Gdrive **temporarily unavailable**. It fits the original output of OpenPose. There is a single `.json` file per frame containing 
+Raw skeletons can be downloaded from [Gdrive](https://drive.google.com/file/d/1wjVzyNGZ0aw8tz1HuB1yQmjOYyvkveBD/view?usp=sharing). It fits the original output of OpenPose. There is a single `.json` file per frame containing 
 the predictions from OpenPose framework. Check [OpenPose Docs](https://github.com/CMU-Perceptual-Computing-Lab/openpose/tree/master/doc/media)
 for additional information about the format.  
 
