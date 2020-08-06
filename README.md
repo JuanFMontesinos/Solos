@@ -7,6 +7,7 @@ Please feel free to visit the [Project Page](https://juanmontesinos.com/Solos) f
 - Added tests 
 - Version 0.4: Bug fix resampling all the videos to 25 FPS + test
 ## Citation  
+Accepted in MMSp 2020.  
 ```
 @article{montesinos2020solos,
     title={Solos: A Dataset for Audio-Visual Music Analysis},
