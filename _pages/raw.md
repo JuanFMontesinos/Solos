@@ -9,7 +9,7 @@ Raw skeletons can be downloaded from Gdrive **temporarily unavailable**. It fits
 the predictions from OpenPose framework. Check [OpenPose Docs](https://github.com/CMU-Perceptual-Computing-Lab/openpose/tree/master/doc/media)
 for additional information about the format.  
 
-The skeletons for the following IDs are not provided as but as csv or numpy only.
+The skeletons for the following IDs are not provided as but as csv or numpy only.  
 ´´´
 'VdFnyZWJAgo',
        '1u3yHICR_BU',
