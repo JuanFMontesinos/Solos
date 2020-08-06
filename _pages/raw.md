@@ -10,7 +10,7 @@ the predictions from OpenPose framework. Check [OpenPose Docs](https://github.co
 for additional information about the format.  
 
 The skeletons for the following IDs are not provided as but as csv or numpy only.  
-´´´
+```
 'VdFnyZWJAgo',
        '1u3yHICR_BU',
        'I0LedcEaPL0',
@@ -44,6 +44,6 @@ The skeletons for the following IDs are not provided as but as csv or numpy only
        '-kUCgRjtwPY',
        'fC6p0MRp-s4',
        'dTApdk9eCVU'
-´´´
+```
 
 
