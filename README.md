@@ -5,7 +5,7 @@ Please feel free to visit the [Project Page](https://juanmontesinos.com/Solos) f
 - Version 0.2: Bug fix to include json files in pypi package.   
 - Version 0.3: Bug fix releasing timestamps.  
 - Added tests 
-
+- Version 0.4: Bug fix resampling all the videos to 25 FPS + test
 ## Citation  
 ```
 @article{montesinos2020solos,
