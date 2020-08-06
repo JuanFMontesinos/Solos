@@ -14,7 +14,7 @@ class SKReader(object):
         if download:
             from google_drive_downloader import GoogleDriveDownloader as gdd
 
-            gdd.download_file_from_google_drive(file_id='1A3xCsLdtL91OavcqvCzsmCc8CKgBfQBj',
+            gdd.download_file_from_google_drive(file_id='1mA4wFmlqm8a1imOGnT-wFVAqZfpTsqFr',
                                                 dest_path=os.path.join(PATH,'skeleton_files','skeleton.npy'),
                                                 unzip=False)
         self.npy = np.memmap(os.path.join(PATH, 'skeleton_files', 'skeleton.npy'),
