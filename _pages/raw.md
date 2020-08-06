@@ -11,7 +11,7 @@ for additional information about the format.
 
 The skeletons for the following IDs are not provided as but as csv or numpy only.  
 ```
-'VdFnyZWJAgo',
+       'VdFnyZWJAgo',
        '1u3yHICR_BU',
        'I0LedcEaPL0',
        '1X2l_1za1g0',
