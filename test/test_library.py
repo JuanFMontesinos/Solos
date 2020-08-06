@@ -20,6 +20,9 @@ class TestSolos(unittest.TestCase):
         gt = np.load(os.path.join(TEST_PATH,'data/skeleton_npy_test.npy'))
         self.assertTrue((gt==sk).all())
         reader = Solos.skeleton.SKReader(download=True, in_ram=True)
+        keys = reader.keys()
+        self.assertEqual(len(keys),754+1)
+        self.assertEqual(len(reader),754+1)
     def test_import_json_files(self):
         Solos.get_solos_ids()
         Solos.get_solos_timestamps()
