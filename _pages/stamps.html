@@ -9,9 +9,68 @@ redirect_from:
 ---
 <h1>Downloading Videos and Issues</h1>  
 A script to download recordings from YouTube is provided in the Github repository as  we cannot host the videos due to copyright issues. 
-We encourage you to send an email to <span>juanfelipe.montesinos@upf.edu</span> to request already-processed videos for research purposes.  
+We encourage you to send an email to <br><span>juanfelipe.montesinos@upf.edu</span></br> to request already-processed videos for research purposes.  
 If you have any other issue related to the code nor the data have a look at the Github Repository.  
 <p> </p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-bw4t{background-color:#f8a102;color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0cjc{background-color:#67fd9a;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-5zvg{background-color:#f8a102;border-color:inherit;color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-bnoq{background-color:#32cb00;border-color:inherit;color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-bnoq">Request Code</th>
+    <th class="tg-5zvg">Pixel format</th>
+    <th class="tg-5zvg">File format</th>
+    <th class="tg-bw4t">Size</th>
+    <th class="tg-bw4t">FPS<br></th>
+    <th class="tg-bw4t">Audio rate</th>
+    <th class="tg-bw4t">Comments</th>
+    <th class="tg-bw4t">Available</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0cjc">yuv420_crop_256</td>
+    <td class="tg-c3ow">yuv420</td>
+    <td class="tg-c3ow">mp4</td>
+    <td class="tg-baqh">256x256</td>
+    <td class="tg-baqh">25.0<br></td>
+    <td class="tg-baqh">44 kHz</td>
+    <td class="tg-baqh">Cropped using minmax position of skeletons</td>
+    <td class="tg-baqh">Yes</td>
+  </tr>
+  <tr>
+    <td class="tg-0cjc">raw</td>
+    <td class="tg-c3ow">unknown</td>
+    <td class="tg-c3ow">mp4,mkv,webm</td>
+    <td class="tg-baqh">original</td>
+    <td class="tg-baqh">variable</td>
+    <td class="tg-baqh">44 kHz</td>
+    <td class="tg-baqh">YouTube resampled audio rate</td>
+    <td class="tg-baqh">Through downloading code</td>
+  </tr>
+  <tr>
+    <td class="tg-0cjc">raw_25</td>
+    <td class="tg-c3ow">unknown</td>
+    <td class="tg-c3ow">mp4,mkv,webm</td>
+    <td class="tg-baqh">original</td>
+    <td class="tg-baqh">25.0</td>
+    <td class="tg-baqh">44 kHz</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh">Yes</td>
+  </tr>
+</tbody>
+</table>
 Embedded file with and IDs:
 <a href="https://gist.github.com/JuanFMontesinos/6c1018b08d85b1fa87cb86c7c738f221">GitHub Gist</a>
 <script src="https://gist.github.com/JuanFMontesinos/6c1018b08d85b1fa87cb86c7c738f221.js"></script>
