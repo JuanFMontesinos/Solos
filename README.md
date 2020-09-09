@@ -6,6 +6,8 @@ Please feel free to visit the [Project Page](https://juanmontesinos.com/Solos) f
 - Version 0.3: Bug fix releasing timestamps.  
 - Added tests 
 - Version 0.4: Bug fix resampling all the videos to 25 FPS + test
+- Version 0.4.1: l0GBOoS_Zv4 timestamp changes + (some) dev code released  
+
 ## Citation  
 Accepted in MMSp 2020.  
 ```
