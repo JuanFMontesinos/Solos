@@ -10,5 +10,3 @@ main:
     url : /csv/
   - title: "RAW"
     url : /raw/
-  - title: "IEEE MMSP"
-    url : /mmsp/
