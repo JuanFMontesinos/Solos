@@ -14,18 +14,12 @@ This dataset is complementary to other datasets of this nature such us MUSIC and
 <p>Solos provide frame-wise human skeletons for the soloist computed using
 <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose/">OpenPose</a>. For each frame we provide meaningful joints, namely, the upperbody joints + hand detection.</p>
 
-<iframe width="1208" height="680" src="https://www.youtube.com/embed/17Kjw976myc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p> </p>
-In the next video we can see skeletons provided for both, the interpolated and non-interpolated cases. Skeletons have been colored according to 
-the network confidence. The more blue the more confident the network is. The more red, the less confidence the network is. Green is used when 
-the network fails to predict a joint (miss-prediction). 
-
+<p>Solos has been presented at 
+<a href="https://attend.ieee.org/mmsp-2020/">IEEE MMSP 2020</a></p>
+<iframe width="1255" height="706" src="https://www.youtube.com/embed/nesxriwTd8Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pnc0tPYzW5U?start=20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p> </p>
-As we can observe, once the network fails to predict a joint, the joint position goes to (0,0), the top left of the image. This harms DL models performance.
-That is why we do provide an interpolated version as described in the work. 
-We also can observe there is a flickering effect in the joint position due to the fact they are computed framewise. In order to address this problem 
-we recommend to use a savgol filter.
+Slides of the presentation can be downloaded from:
+<a href="https://drive.google.com/file/d/1IVeLNjKxVUDsp6WLnjvC43hmecTXQVMm/view?usp=sharing">Google Drive PDF</a></p>
 <p> </p>
 <h1>Categories</h1>  
 Solos contains the same categories than
