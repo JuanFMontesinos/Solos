@@ -12,6 +12,7 @@ dic_real = {}
 for path in tree.paths(root=PATH):
     feats = path.split('/')
     cat = feats[-2]
+
     key = feats[-1].split('.')[0]
     if cat not in dic_real:
         dic_real[cat] = []

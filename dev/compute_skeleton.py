@@ -13,6 +13,7 @@ from openpose_wrapper.core import OPose
 
 import fire
 
+
 import time
 import os
 from shutil import rmtree
