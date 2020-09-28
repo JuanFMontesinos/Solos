@@ -28,6 +28,16 @@ An alternative is provided via imageio, but it doesn't support webm videos.
 
 """
 
+special_cases = {
+    'STKXyBGSGyE': [0, 400, 50, 320],
+    'eHbxLcoLWYY': [120, 420, 190, 360],
+    'tfcNUo8qjrA': [100, 450, 100, 320],
+    'eCQO6k5Qrmg': [130, 420, 130, 300],
+    'YcXK-dWMxC0': [150, 330, 210, 360],
+    'u6Mr13lHQVs': [420, 620, 20, 280],
+    'dTApdk9eCVU': [250, 600, 160, 360],
+}
+
 
 def get_size(path):
     reader = imageio.get_reader(path)
@@ -62,6 +72,8 @@ if __name__ == '__main__':
     for video_path in progress_bar:
         dst_path = video_path.replace(VIDEOS_PATH, DST_PATH)
         key = video_path.split('/')[-1].split('.')[0]
+        if key not in special_cases:
+            continue
         cat = video_path.split('/')[-2]
         try:
             metadata = FFProbe(video_path)
@@ -75,13 +87,16 @@ if __name__ == '__main__':
                 print(f'Metadata exception at:'
                       f'{video_path}')
                 continue
-        skeleton = sk_reader[key]
-        # Interpolation may point out of the img
-        # Cropping out of the image leads to errors in ffmpeg
-        x_max = min(skeleton[:, 0, :].max(), vw)
-        x_min = max(skeleton[:, 0, :].min(), 0)
-        y_max = min(skeleton[:, 1, :].max(), vh)
-        y_min = max(skeleton[:, 1, :].min(), 0)
+        if key in special_cases:
+            x_min, x_max, y_min, y_max = special_cases[key]
+        else:
+            skeleton = sk_reader[key]
+            # Interpolation may point out of the img
+            # Cropping out of the image leads to errors in ffmpeg
+            x_max = min(skeleton[:, 0, :].max(), vw)
+            x_min = max(skeleton[:, 0, :].min(), 0)
+            y_max = min(skeleton[:, 1, :].max(), vh)
+            y_min = max(skeleton[:, 1, :].min(), 0)
         w = int(x_max - x_min)
         h = int(y_max - y_min)
 
