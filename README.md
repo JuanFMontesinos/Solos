@@ -17,8 +17,7 @@ Presented at MMSP 2020.
                  Gloria Haro},
     title     = {Solos: A Dataset for Audio-Visual Music Analysis},
     booktitle = {22st {IEEE} International Workshop on Multimedia Signal Processing,
-                {MMSP} 2019, Tampere, Finland, September 21-24, 2020},
-               
+                {MMSP} 2020, Tampere, Finland, September 21-24, 2020},
     publisher = {IEEE},
     year      = {2020},
 
